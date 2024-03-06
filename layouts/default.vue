@@ -1,9 +1,7 @@
 <template>
-	<div id="app">
+	<div id="app" class="dark">
 		<header></header>
-		<main>
-			<slot />
-		</main>
+		<slot />
 		<footer></footer>
 	</div>
 </template>

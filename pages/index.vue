@@ -1,3 +1,5 @@
 <template>
-	<div class="bg-blue-200"></div>
+	<main>
+		<ElButton type="primary">Primary</ElButton>
+	</main>
 </template>

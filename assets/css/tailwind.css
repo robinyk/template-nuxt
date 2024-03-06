@@ -3,15 +3,21 @@
 @tailwind utilities;
 
 @layer base {
-	.app {
-		@apply relative flex min-h-screen flex-col;
+	#app {
+		@apply relative flex h-dvh flex-col;
 
-		.app-header {
-			@apply sticky top-0 z-50 min-h-8 w-full border-b bg-white drop-shadow;
+		header {
+			@apply sticky top-0 z-50 min-h-12 w-full border-b bg-white drop-shadow;
 		}
 
-		.app-content {
-			@apply flex-1;
+		main {
+			@apply flex flex-1;
 		}
+	}
+}
+
+@layer components {
+	.flex-center {
+		@apply flex items-center justify-center;
 	}
 }

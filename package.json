@@ -12,7 +12,10 @@
 		"lint:fix": "eslint . --fix"
 	},
 	"dependencies": {
+		"@tabler/icons-react": "^2.47.0",
+		"clsx": "^2.1.0",
 		"nuxt": "^3.10.3",
+		"tailwind-merge": "^2.2.1",
 		"vue": "^3.4.19",
 		"vue-router": "^4.3.0"
 	},

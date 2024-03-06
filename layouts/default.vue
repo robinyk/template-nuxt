@@ -1,8 +1,9 @@
 <template>
-	<div class="app">
-		<header class="app-header"></header>
-		<main class="app-content">
+	<div id="app">
+		<header></header>
+		<main>
 			<slot />
 		</main>
+		<footer></footer>
 	</div>
 </template>

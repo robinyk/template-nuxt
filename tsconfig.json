@@ -1,4 +1,30 @@
 {
-  // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+	// "compilerOptions": {
+	// 	/* https://www.totaltypescript.com/tsconfig-cheat-sheet */
+	// 	// "esModuleInterop": true,
+	// 	"skipLibCheck": true,
+	// 	// "target": "ES2022",
+	// 	"allowJs": true,
+	// 	"resolveJsonModule": true,
+	// 	"moduleDetection": "force",
+	// 	"isolatedModules": true,
+
+	// 	// "strict": true,
+	// 	"noUncheckedIndexedAccess": true,
+
+	// 	// "module": "ESNext",
+	// 	// "moduleResolution": "Bundler",
+	// 	"noEmit": true
+
+	// 	// "lib": ["DOM", "DOM.Iterable", "ES2022"],
+	// 	// "jsx": "react-jsx",
+	// 	// "forceConsistentCasingInFileNames": true,
+	// 	// "baseUrl": ".",
+	// 	// "paths": {
+	// 	// 	"@/*": ["./app/*"]
+	// 	// }
+	// },
+	// https://nuxt.com/docs/guide/concepts/typescript
+	"extends": "./.nuxt/tsconfig.json",
+	"include": ["env.d.ts", "**/*.ts", "**/*.tsx"]
 }
